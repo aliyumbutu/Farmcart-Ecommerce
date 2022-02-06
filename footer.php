@@ -1,86 +1,44 @@
-  <!-- Footer -->
-        <footer>
-            <!-- Footer top -->
-            <div class="container footer_top">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-7">
-                        <div class="footer_item">
-                            <h4>About Company</h4>
-                            <img class="logo" src="images/logo.png" alt="Construction" />
-                            <p></p>
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3> <a href="index.php" style="width:20px;"  class="logo mr-auto"><img src="assets/img/logo.png" style="width:150px;" alt="" class="img-fluid"></a></h3>
+      <p>This platform will help the sellers to ease sell difficult and get customers
+right in their shop or to buy through online order. The buyers benefits is
+by checking good produce with cheap price in different geographical area.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>farmCart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ -->
+        Designed by <a href="">Innovative Coders</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-                            <ul class="list-inline footer_social_icon">
-                                <li><a href=""><span class="fa fa-facebook"></span></a></li>
-                                <li><a href=""><span class="fa fa-twitter"></span></a></li>
-                                <li><a href=""><span class="fa fa-youtube"></span></a></li>
-                                <li><a href=""><span class="fa fa-google-plus"></span></a></li>
-                                <li><a href=""><span class="fa fa-linkedin"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-sm-5">
-                        <div class="footer_item">
-                            <h4>Explore link</h4>
-                            <ul class="list-unstyled footer_menu">
-                                <li><a href=""><span class="fa fa-play"></span> Our services</a>
-                                <li><a href=""><span class="fa fa-play"></span> Meet our team</a>
-                                <li><a href=""><span class="fa fa-play"></span> Forum</a>
-                                <li><a href=""><span class="fa fa-play"></span> Help center</a>
-                               
-                                
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-7">
-                        <div class="footer_item">
-                            <h4>Latest post</h4>
-                            <ul class="list-unstyled post">
-                            
-                            
-                            
-                            
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5">
-                        <div class="footer_item">
-                            <h4>Contact us</h4>
-                            <ul class="list-unstyled footer_contact">
-                                <li><a href=""><span class="fa fa-map-marker"></span> 124 New Line, London UK</a></li>
-                                <li><a href=""><span class="fa fa-envelope"></span> hello@psdfreebies.com</a></li>
-                                <li><a href=""><span class="fa fa-mobile"></span><p>+44 00 00 1234 <br />+44 00 00 1234</p></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Footer top end -->
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-            <!-- Footer bottom -->
-            <div class="footer_bottom text-center">
-                <p class="wow fadeInRight">
-                    Made with 
-                    <i class="fa fa-heart"></i>
-                    by 
-                    <a target="_blank" href="http://bootstrapthemes.co">Mento07</a> 
-                    2020. All Rights Reserved
-                </p>
-            </div><!-- Footer bottom end -->
-        </footer><!-- Footer end -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
 
-        <!-- JavaScript -->
-        <script src="js/jquery-1.12.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-        <!-- Bootsnav js -->
-        <script src="js/bootsnav.js"></script>
+</body>
 
-        <!-- JS Implementing Plugins -->
-        <script src="js/isotope.js"></script>
-        <script src="js/isotope-active.js"></script>
-        <script src="js/jquery.fancybox.js?v=2.1.5"></script>
-
-        <script src="js/jquery.scrollUp.min.js"></script>
-
-        <script src="js/main.js"></script>
-    </body>	
-</html>	
+</html>

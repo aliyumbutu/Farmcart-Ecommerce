@@ -1,186 +1,144 @@
-    <?php   
-    require_once("titlebar.php");
-
-    ?>
+<?php require_once("head.php") ?>
 
 
-           <section id="home" class="home">
-            <!-- Carousel -->
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <!-- Carousel-inner -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/slider_img.jpg" alt="Construction">
-                        <div class="overlay">
-                            <div class="carousel-caption">
-                                <h3>The redesigned learning experience for you</h3>
-                                <h1>Sharing Knowledge</h1>
-                                <h1 class="second_heading">Creative & Professional</h1>
-                                <p> All-in-one solution that allows you to co-construct
-                                your training environment with the help of a mentor</p>
-                                <a class="btn know_btn" href="mentors.php">Fine a Mentor</a>
-                                <a class="btn know_btn" href="register_form_mentor.php">Be a Mentor</a>
-                            
-                            </div>                  
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/slider_img2.jpg" alt="Construction">
-                        <div class="overlay">
-                            <div class="carousel-caption">
-                                <h3>The redesigned learning experience for you</h3>
-                                <h1>Sharing Knowledge</h1>
-                                <h1 class="second_heading">Creative & Professional</h1>
-                                <p> All-in-one solution that allows you to co-construct
-                                your training environment with the help of a mentor</p>
-                                <a class="btn know_btn" href="mentors.php">Fine a Mentor</a>
-                                <a class="btn know_btn" href="register_form_mentor.php">Be a Mentor</a>
-                            
-                            </div>                      
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/slider_img3.jpg" alt="Construction">
-                        <div class="overlay">
-                            <div class="carousel-caption">
-                                <h3>The redesigned learning experience for you</h3>
-                                <h1>Sharing Knowledge</h1>
-                                <h1 class="second_heading">Creative & Professional</h1>
-                                <p> All-in-one solution that allows you to co-construct
-                                your training environment with the help of a mentor</p>
-                                <a class="btn know_btn" href="mentors.php">Fine a Mentor</a>
-                                <a class="btn know_btn" href="register_form_mentor.php">Be a Mentor</a>
-                            
-                            </div>                
-                        </div>
-                    </div>
-                </div><!-- Carousel-inner end -->
+ <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-                     <!-- Controls -->
-                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-                    <span class="fa fa-angle-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-                    <span class="fa fa-angle-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div><!-- Carousel end-->
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-        </section>
+      <div class="carousel-inner" role="listbox">
 
-
-        <!-- About -->
-        <section id="about">
-            <div class="container about_bg">
-                <div class="row">
-                    <div class="col-lg-7 col-md-6">
-                        <div class="about_content">
-                            <h2>Welcome to Our Company</h2>
-                            <h3>Aliquam lacus purus, auctor malesuada</h3>
-                            <p> ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
-                            <a  class="btn know_btn">know more</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-lg-offset-1">
-                        <div class="about_banner">
-                            <img src="images/man.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- About end -->
-
-        <!-- Why us -->
-        <section id="why_us">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="head_title">
-                            <h2>WHY CHOOSE US?</h2>
-                            <p> ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="why_us_item">
-                            <span class="fa fa-leaf"></span>
-                            <h4>We deliver quality</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="why_us_item">
-                            <span class="fa fa-futbol-o"></span>
-                            <h4>Always on time</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="why_us_item">
-                            <span class="fa fa-group"></span>
-                            <h4>We are pasionate</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="why_us_item">
-                            <span class="fa fa-line-chart"></span>
-                            <h4>Professional Services</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- Why us end -->
-
-        <!-- Services -->
-        <section id="services">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+          <div class="carousel-container">
             <div class="container">
-                <h2>OUR SERVICES</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="service_item">
-                            <img src="images/slider_img.jpg" alt="Our Services" />
-                            <h3>CONSTRUCTION MANAGEMENT</h3>
-                            <p> ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service_item">
-                            <img src="images/slider_img.jpg" alt="Our Services" />
-                            <h3>RENOVATION</h3>
-                            <p> ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service_item">
-                            <img src="">
-                            <img src="images/slider_img.jpg" alt="Our Services" />
-                            <h3>ARCHITECTURE</h3>
-                            <p> ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
-                        </div>
-                    </div>
-                </div>
+              <h2 class="animate__animated animate__fadeInDown">  <span></span></h2>      
             </div>
-        </section><!-- Services end -->
+          </div>
+        </div>
 
-        <!-- Testimonial -->
-        <!-- Contact form end -->
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"></h2>
+            </div>
+          </div>
+        </div>
 
-        <?php   
-    require_once("contactform.php");
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown"></h2>
+            </div>
+          </div>
+        </div>
 
-    ?>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <?php 
+
+require_once("function.php");
+
+$sql = "SELECT * FROM `add` ORDER BY am_p_kg   DESC";
+
+$query = mysqli_query($conn, $sql)or die("Invalid query");
+
+?>
+
+  <main id="main">
+
+    
+  
+    
+      </div>
+    </section><!-- End Why Us Section -->
+
+    </center>
+   
+    
 
 
-        <?php   
-    require_once("footer.php");
 
-    ?>
+
+ <div class="card mb-4">
+                            <div class="card-header">
+                                
+                                <h4><i class="fas fa-table mr-1"></i> Vegitables Rates  </h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th>S/N</th>
+                                                <th>State</th>
+                                                <th>Geographical Area</th>
+                                                <th>Vegitables type</th>
+                                                <th>Amount 1kg</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                            
+                                           
+                                 <?php while($array = $query->fetch_array()){
+                                    $id = $array["id"];
+                                  $state = $array["state"];
+                                     $av_kg = $array["av_kg"];
+                                        $am_p_kg = $array["am_p_kg"];
+                                           $city = $array["city"];
+                                            $addr = $array["addr"];
+                                             $user_id = $array["user_id"];
+                                             $vegetable_name = $array["vegetable_name"];
+
+
+                                    echo "<tr>";
+                                    echo ' <td>' . $id . '</td>';
+                                    echo ' <td>' . ucwords($state) . '</td>';
+                                    echo ' <td>' . ucwords($city) . '</td>';
+                                    echo ' <td>' . ucwords($vegetable_name) . '</td>';
+                                    echo ' <td>' . $am_p_kg . ' ' . "" . 'Rupees</td>';
+
+                                    echo ' <td><a href="view.php?ps_id=' . $id . '" type="button" name="view" value="View" class="btn btn-danger">View</a> </td>';
+
+                                    echo "</tr>";
+
+                                            }
+
+ ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+
+  <?php require_once("footer.php"); ?>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/datatables-demo.js"></script>
